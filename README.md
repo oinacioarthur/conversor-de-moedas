@@ -1,4 +1,3 @@
-<img src="mockup.jpg"></img>
 <h2>🗒️ Sobre o projeto</h2>
 <p>O projeto de Conversor de Moedas é uma aplicação web desenvolvida utilizando HTML, CSS e JavaScript, integrada a uma <b>API</b> no qual retorna os valores atualizados das moedas. A finalidade deste projeto é fornecer aos usuários uma ferramenta simples e intuitiva para converter valores entre diferentes moedas.</p>
 
