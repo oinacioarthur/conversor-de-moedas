@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Conversor de Moedas</h1>
+    <div class="container">
+        <label>
+            Converter <b>de</b>
+            <select class="select1">
+                <option value="real">R$ Real brasileiro</option>
+                <option value="dolar">US$ Dólar americano</option>
+                <option value="libra">£ Libra Esterlina</option>
+                <option value="euro">€ Euro</option>
+                <option value="franco">Fr Franco Suíço</option>
+                <option value="peso">$ Peso Argentino</option>
+                <option value="iene">¥ Iene Japonês</option>
+            </select>
+        </label>
+
+        <label>
+            <b>Para</b>
+            <select class="select2">
+                <option value="real">R$ Real brasileiro</option>
+                <option value="dolar">US$ Dólar americano</option>
+                <option value="libra">£ Libra Esterlina</option>
+                <option value="euro">€ Euro</option>
+                <option value="franco">Fr Franco Suíço</option>
+                <option value="peso">$ Peso Argentino</option>
+                <option value="iene">¥ Iene Japonês</option>
+            </select>
+        </label>
+
+        <label>
+            <b>Valor</b>
+            <input placeholder="10.000,00" id="currencyValue">
+        </label>
+
+        <button id="convertBtn">Converter</button>
+
+        <section>
+            <div>
+                <img src="./assets/real.svg" alt="Real" class="coinImage1">
+                <p class="coin">Real Brasileiro</p>
+                <p class="primeiroValor">R$ 0.00</p>
+            </div>
+
+
+            <div>
+                <img src="./assets/dolar.svg" alt="Real" class="coinImage">
+                <p class="coinConverted">Dólar Americano</p>
+                <p class="segundoValor">$ 0.00</p>
+            </div>
+        </section>
+            
+    </div>
+    
+    <footer>
+        <p>Copyright © 2024 - Desenvolvido por <b>Arthur Inacio</b></p>
+    </footer> 
+
+    <script src="script.js"></script>
+    <script src="country-list.js"></script>
+</body>
+</html>
